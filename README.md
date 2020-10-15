@@ -5,14 +5,14 @@
 [![Coverage Status](https://img.shields.io/badge/coverage-110%25-brightgreen.svg)](https://coveralls.io/r/ajalt/fuckitpy?branch=master)
 [![Downloads](https://img.shields.io/badge/downloads-1.1M%2Fmonth-brightgreen.svg)](https://pypi.python.org/pypi/fuckit)
 
-### The Python Error Steamroller
+### The Python Error Steamroller The State Of Art Technology
 FuckIt.py uses state-of-the-art technology to make sure your Python code runs
 whether it has any right to or not. Some code has an error? Fuck it.
 
-## Technology
+## Technology of FuckIt.py
 FuckIt.py uses a combination of dynamic compilation, Abstract Syntax Tree rewriting, live call stack modification, and love to get rid of all those pesky errors that make programming _so hard_.
 
-## API
+## API (Application for Programming Interface
 All functionality is provided through the fuckit module. Add `import fuckit` to the top of your script, then use fuckit in any of the following ways:
 
 ### As a replacement for import
@@ -35,7 +35,7 @@ fuckit(fuckit('some_shitty_module'))
 some_shitty_module.some_function()
 ```
 
-### As a decorator
+### As a decorator as fuckit
 Use fuckit as a function decorator when a single function is giving you trouble. Exceptions will be silenced, and in most cases the function will continue to run, skipping the statements that cause errors.
 
 ```python
